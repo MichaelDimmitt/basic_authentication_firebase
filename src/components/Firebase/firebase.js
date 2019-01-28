@@ -2,12 +2,12 @@ import app from 'firebase/app';
 import 'firebase/auth';
 import 'firebase/database';
 
-const REACT_APP_API_KEY='AIzaSyCD5KkLH5THSVDQT8d35nyh5-KrlhSQNoo'
-const REACT_APP_AUTH_DOMAIN='basic-login-auth.firebaseapp.com'
-const REACT_APP_DATABASE_URL='https://basic-login-auth.firebaseio.com"'
-const REACT_APP_PROJECT_ID='basic-login-auth'
-const REACT_APP_STORAGE_BUCKET='basic-login-auth.appspot.com'
-const REACT_APP_MESSAGING_SENDER_ID=1064562027750
+const REACT_APP_API_KEY='AIzaSyB6gMkcBGF1avy29L__fqPOtIStDkSLpr0'
+const REACT_APP_AUTH_DOMAIN='basic-authentication-project.firebaseapp.com'
+const REACT_APP_DATABASE_URL='https://basic-authentication-project.firebaseio.com'
+const REACT_APP_PROJECT_ID='basic-authentication-project'
+const REACT_APP_STORAGE_BUCKET='basic-authentication-project.appspot.com'
+const REACT_APP_MESSAGING_SENDER_ID=145182842210
 
 const config = {
   apiKey: REACT_APP_API_KEY,

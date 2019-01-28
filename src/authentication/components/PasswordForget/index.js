@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 
-import { withFirebase } from '../../authentication/Firebase';
-import * as ROUTES from '../../Navigation/constants/routes';
+import { withFirebase } from '../../../authentication/Firebase';
+import * as ROUTES from '../../../Navigation/constants/routes';
 
 const PasswordForgetPage = () => (
   <div>

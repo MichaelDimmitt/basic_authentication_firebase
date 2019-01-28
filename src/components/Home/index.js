@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { compose } from 'recompose';
 
-import { withAuthorization, withEmailVerification } from '../Session';
+import { withAuthorization, withEmailVerification } from '../../authentication/components/Session';
 import { withFirebase } from '../../authentication/Firebase';
 import Messages from '../Messages';
 

@@ -2,9 +2,9 @@ import React, { Component } from 'react';
 import { Link, withRouter } from 'react-router-dom';
 import { compose } from 'recompose';
 
-import { withFirebase } from '../../authentication/Firebase';
-import * as ROUTES from '../../Navigation/constants/routes';
-import * as ROLES from '../../Navigation/constants/roles';
+import { withFirebase } from '../../../authentication/Firebase';
+import * as ROUTES from '../../../Navigation/constants/routes';
+import * as ROLES from '../../../Navigation/constants/roles';
 
 const SignUpPage = () => (
   <div>

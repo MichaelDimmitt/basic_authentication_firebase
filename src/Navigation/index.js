@@ -1,8 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-import { AuthUserContext } from '../components/Session';
-import SignOutButton from '../components/SignOut';
+import { AuthUserContext } from '../authentication/components/Session';
+import SignOutButton from '../authentication/components/SignOut';
 import * as ROUTES from './constants/routes';
 import * as ROLES from './constants/roles';
 

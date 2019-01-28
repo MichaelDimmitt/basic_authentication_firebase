@@ -29,8 +29,9 @@ after creating an app look for products, Facebook Login.
 That is where you will input redirect URI's.
 More than one can be input at once.
 ```
+## Additional troubleshooting:
+consider, set process.env.REACT_APP_CONFIRMATION_EMAIL_REDIRECT to window.location.href.
 
 
 ## Time for the database.
 Setup a realtime database on firebase. change the first to have table user.
-
